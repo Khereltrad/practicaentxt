@@ -1,0 +1,45 @@
+Actividad
+Predice la salida para los códigos que encontrarás más abajo. Por favor, no corras el código directamente en la consola o JSbin, sino que hazlo a mano sin utilizar un computador. Saber cómo hacer esto en papel es sumamente importante. Una vez que hayas predecido la salida para todos los códigos, entonces deberás ejecutarlos en tu consola/jsBin y comparar tu predicción con lo que realmente sucede. Si tu predicción es diferente a los resultados del computador, asegúrate de entender por qué son diferentes y corrige tus errores respecto al funcionamiento del código.
+
+Queremos que tengas el hábito de usar el Diagrama T en papel. Esto no solo te ayudará durante los ejercicios en la pizarra, sino que te hará un mejor solucionador de problemas y desarrollador. No te saltes la actividad por favor.
+
+for(var i=0; i<5;i++){   
+   console.log(i);
+}
+for(var i=0; i<5; i++)
+{
+   i = i + 1;  
+   console.log(i);
+}
+for(var i=0; i<5; i++)
+{
+   i = i + 3; 
+   console.log(i);
+}
+function y(num1, num2){   
+   return num1+num2;
+}
+console.log(y(2,3))
+console.log(y(3,5))
+function y(num1, num2){
+   console.log(num1);   
+   return num1+num2;
+}
+console.log(y(2,3))
+console.log(y(3,5))
+a = 15;
+console.log(a);
+function y(a){
+   console.log(a);   
+   return a;
+}
+b = y(10);
+console.log(b);
+a = 15;
+console.log(a);
+function y(a){
+   console.log(a);   
+   return a*2;
+}
+b = y(10);
+console.log(b);
